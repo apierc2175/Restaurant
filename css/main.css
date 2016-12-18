@@ -1,0 +1,156 @@
+body{
+  background-color: #c2c9c9;
+}
+h1{
+
+}
+h1.center{
+  text-align: center;
+}
+
+h2{
+  text-align:center;
+}
+
+h3{
+  text-decoration: underline;
+}
+img.right{
+float: right;
+}
+
+button{
+float: right;
+}
+
+header{
+  background-color: #505657;
+  height: 40px;
+}
+
+.ImageBorder[
+border-width: 10px;
+border-color: black;
+]
+
+form{
+  padding: 10px;
+}
+
+a{
+  color: white;
+}
+
+footer{
+background-color: #505657;
+
+  height: 150px;
+
+}
+
+p{
+  color: white;
+  font-style: italic;
+}
+
+div.gray{
+  background-color: #505657;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e48000;
+}
+
+/* selected link */
+a:active {
+    color: #a16000;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 150px; /* must be same height as the footer */
+}
+
+#footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 180px;
+  clear: both;
+}
+
+/* Opera Fix thanks to Maleika (Kohoutec) */
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;/* thank you Erik J - negate effect of float*/
+}
+
+li{
+  font-weight: bold;
+}
+
+div.center{
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+ border-color: black;
+ border-top-right-radius: 50px;
+ border-bottom-left-radius: 50px;
+ border-top-left-radius: 50px;
+ border-bottom-right-radius: 50px;
+ width: 400px;
+
+}
+div.short{
+  height: 150px;
+}
+
+p.big{
+  font-size: 36px;
+}
+
+h2.big{
+  font-size: 50px;
+  font-family: fredoka-one;
+}
+
+h3.menu{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: luckiest-guy;
+}
+
+ul{
+  list-style-type: none;
+  margin: 5px;
+}
+
+img.float_right{
+  float: right;
+  margin: 10px;
+}
